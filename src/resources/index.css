@@ -1,0 +1,142 @@
+@import url(https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap);
+
+* {
+  margin: 0;
+  font-family: "Nunito";
+  color: #333;
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 900px;
+  margin: 0 auto;
+  border-bottom: 2px solid #f2f2f2;
+}
+
+.navbar h1 {
+  color: #e90c59;
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.navbar a:hover {
+  color: #e90c59;
+}
+
+.content {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.center{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -65%);
+}
+
+button:hover{
+  color: #e90c59;
+  background-color: #fff;
+  border: 2px solid #333;
+}
+
+button{
+  font-size: large;
+  letter-spacing: 2.5px;
+  background-color: #e90c59;
+  color: #fff;
+  border: 2px solid #333;
+  padding: 10px;
+  transition: 0.3;
+}
+
+.home h1{
+  font-size: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.home, .ip-location{
+  position: relative;
+  height: 425px;
+  text-align: center;
+}
+
+.ip-location{
+  margin-top: 175px;
+}
+
+.ip-location-list h4{
+  margin-top: 30px;
+}
+
+.ip-location-form{
+  margin-top: 40px !important;
+}
+
+.ip-location-form label {
+  display: block;
+  text-align: center;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.ip-location-form input{
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  padding: 6px 10px;
+  margin: 25px 0;
+  border: 1px solid #d2d2d2;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.footer a{
+  text-decoration: none;
+}
+
+.footer p{
+  font-size: 25px;
+  text-align: center;
+  color: #e90c59 !important;
+}
+
+.not-found{
+  margin: 120px auto;
+  display: table;
+  width: 100%;
+  text-align: center;
+}
+
+.not-found h2{
+  color: #e90c59;
+}
+
+.not-found h1{
+  font-size: 50px;
+  transition: all 0.6s;
+  display: inline-block;
+  animation: type .5s alternate infinite;
+  padding-right: 12px;
+}
+
+@keyframes type{
+  from{box-shadow: inset -3px 0px 0px #333;}
+  to{box-shadow: inset -3px 0px 0px transparent;}
+}
